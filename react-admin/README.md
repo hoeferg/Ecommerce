@@ -102,6 +102,15 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 * [![Laravel][Laravel.com]][Laravel-url]
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 * [![JQuery][JQuery.com]][JQuery-url]
+mui/material
+emotion/react /styled
+mui/x-data-grid icons-material 
+react-router-dom
+react-pro-sidbar
+formik
+yup
+fullcalendar/core /daygrid /timegrid /list
+nivo/core /pie /line /bar /geo
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
