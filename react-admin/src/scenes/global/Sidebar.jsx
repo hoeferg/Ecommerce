@@ -62,6 +62,7 @@ const Sidebar =() => {
             >
         <ProSidebar collapsed={isCollapsed}>
             <Menu iconShape="square">
+                {/* LOGO AND MENU ICON*/}
                 <MenuItem
                 onClick={() => setIsCollapsed(!isCollapsed)}
                 icon={isCollapsed ? <MenuOutlinedIcon /> : undefined}
@@ -78,7 +79,7 @@ const Sidebar =() => {
                         ml="15px"
                         >
                             <Topography variant="h3" color={colors.grey[100]}>
-                                ADMINTS
+                                ADMINIS
                             </Topography>
                             <IconButton onClick={() => setIsCollapsed(!isCollapsed)}>
                                 <MenuOutlinedIcon />
@@ -114,6 +115,14 @@ const Sidebar =() => {
                         selected={selected}
                         setSelected={setSelected}
                     />
+
+                    <Typography
+                    Variant="h6"
+                    color={colors.grey[300]}
+                    sx={{ m: "15px 0 5px 20px"}}
+                    >
+                    </Typography>
+
                     <Item
                         title="Manage Team"
                         to="/team"
@@ -135,17 +144,69 @@ const Sidebar =() => {
                         selected={selected}
                         setSelected={setSelected}
                     />
+<Typography
+                    Variant="h6"
+                    color={colors.grey[300]}
+                    sx={{ m: "15px 0 5px 20px"}}
+                    >
+                        Pages
+                    </Typography>
+
                     <Item
-                        title="Dashboard"
-                        to="/"
-                        icon={<HomeModeOutlinedIcon />}
+                        title="Profile Form"
+                        to="/form"
+                        icon={<PersonOutlinedIcon />}
                         selected={selected}
                         setSelected={setSelected}
                     />
                     <Item
-                        title="Dashboard"
-                        to="/"
-                        icon={<HomeModeOutlinedIcon />}
+                        title="Calendar"
+                        to="/calendar"
+                        icon={<CalendarTodayOutlinedIcon />}
+                        selected={selected}
+                        setSelected={setSelected}
+                    />
+                    <Item
+                        title="FAQ Pages"
+                        to="/faq"
+                        icon={<HelpOutlinedIcon />}
+                        selected={selected}
+                        setSelected={setSelected}
+                    />
+
+<Typography
+                    Variant="h6"
+                    color={colors.grey[300]}
+                    sx={{ m: "15px 0 5px 20px"}}
+                    >
+                        Charts
+                    </Typography>
+
+                    <Item
+                        title="Bar Chart"
+                        to="/bar"
+                        icon={<BarChartOutlinedIcon />}
+                        selected={selected}
+                        setSelected={setSelected}
+                    />
+                    <Item
+                        title="Pie Chart"
+                        to="/pie"
+                        icon={<PieChartOutlinedIcon />}
+                        selected={selected}
+                        setSelected={setSelected}
+                    />
+                    <Item
+                        title="Line Chart"
+                        to="/line"
+                        icon={<TimelineOutlinedIcon />}
+                        selected={selected}
+                        setSelected={setSelected}
+                    />
+                    <Item
+                        title="Geography Chart"
+                        to="/geography"
+                        icon={<MapOutlinedIcon />}
                         selected={selected}
                         setSelected={setSelected}
                     />

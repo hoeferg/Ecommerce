@@ -1,5 +1,5 @@
 {
-  "homepage": "hoeferg.github.io/Ecommerce-,",
+  "homepage": "http://hoeferg/github.io/Ecommerce-,",
   "name": "react-admin",
   "version": "0.1.0",
   "private": true,
@@ -37,7 +37,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -56,5 +56,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->\r <a name=\"readme-top\"></a>\r <!--\r *** Thanks for checking out the Best-README-Template. If you have a suggestion\r *** that would make this better, please fork the repo and create a pull request\r *** or simply open an issue with the tag \"enhancement\".\r *** Don't forget to give the project a star!\r *** Thanks again! Now go create something AMAZING! :D\r -->",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC"
 }
