@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Prosidebar, Menu, MenuItem } from "react-pro-sidebar";
+import { ProSidebar, Menu, MenuItem } from "react-pro-sidebar";
 import 'react-pro-sidebar/dist/css/styles.css';
 import { Box, IconButton, Typography, useTheme } from '@mui/material'
 import { link } from "react-router-dom";
@@ -15,7 +15,7 @@ import BarChartOutlinedIcon from "@mui/icons-material/BarChartOutlined";
 import PieChartOutlinedIcon from "@mui/icons-material/PieChartOutlined";
 import TimelineOutlinedIcon from "@mui/icons-material/TimelineOutlined";
 import MenuOutlinedIcon from "@mui/icons-material/MenuOutlined";
-import MaplineOutlinedIcon from "@mui/icons-material/MapOutlined";
+import MapOutlinedIcon from "@mui/icons-material/MapOutlined";
 
 const Item = ({ title, to, icon, selected, setSelected }) => {
     const theme = useTheme();
@@ -78,9 +78,9 @@ const Sidebar =() => {
                         alignItems="center"
                         ml="15px"
                         >
-                            <Topography variant="h3" color={colors.grey[100]}>
+                            <Typography variant="h3" color={colors.grey[100]}>
                                 ADMINIS
-                            </Topography>
+                            </Typography>
                             <IconButton onClick={() => setIsCollapsed(!isCollapsed)}>
                                 <MenuOutlinedIcon />
                             </IconButton>
