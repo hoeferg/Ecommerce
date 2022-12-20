@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { ColorModeContext, useMode } from "./theme";
 import { CssBaseline, ThemeProvider } from "@mui/material"
 
@@ -12,6 +13,16 @@ function App() {
       </div>
     </ThemeProvider>
   </ColorModeContext.Provider>
+=======
+import Topbar from './scenes/global/Topbar'
+
+
+function App() {
+  return (
+    <div className="app">
+      <Topbar />
+    </div>
+>>>>>>> 044290fdebbfba9565bec2479d74c2cdc8404bfe
   );
 }
 
