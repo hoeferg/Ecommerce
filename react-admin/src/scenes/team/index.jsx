@@ -1,10 +1,7 @@
 import { Box, Typography, useTheme } from '@mui/material'
-import { Datagrid } from '@mui/x-data-grid'
+import { DataGrid } from '@mui/x-data-grid'
 import { tokens } from '../../theme'
 import { mockDataTeam, mockGeographyData } from '../../data/mockData'
-import AdminPanelSettingsOutlinedIcon from '@mui/icons-material/AdminPanelSettingsOutlinedIcon';
-import LockOpenOutlinedIcon from '@mui/icons-material/LockOpenOutlined';
-import SecurityOutlinedIcon from '@mui/icons-material/SecurityOutlinedIcon';
 import Header from '../../components/Header';
 
 const Team = () => {
@@ -98,7 +95,7 @@ const Team = () => {
                         borderTop: 'none'
                     },
                 }}>
-                <Datagrid rows={mockDataTeam} columns={columns} />
+                <DataGrid rows={mockDataTeam} columns={columns} />
             </Box>
         </Box>
     )
