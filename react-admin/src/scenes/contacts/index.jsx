@@ -1,5 +1,5 @@
 import { Box, } from '@mui/material'
-import { Datagrid, GridToolBar } from '@mui/x-data-grid'
+import { DataGrid, GridToolbar } from '@mui/x-data-grid'
 import { tokens } from '../../theme'
 import { mockDataContacts, mockGeographyData } from '../../data/mockData'
 import Header from '../../components/Header';
@@ -91,7 +91,7 @@ const Contacts = () => {
                     },
                 }}
             >
-                <Datagrid rows={mockDataContacts}
+                <DataGrid rows={mockDataContacts}
                     columns={columns}
                     components={{ Toolbar: GridToolbar }}
                 />
