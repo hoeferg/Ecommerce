@@ -44,7 +44,7 @@ const Team = () => {
             headerName: 'Access Level',
             flex: 1,
             renderCell: ({ row: { access } }) => {
-                retun(
+                return(
                     <Box
                         width="60%"
                         m="0 auto"
