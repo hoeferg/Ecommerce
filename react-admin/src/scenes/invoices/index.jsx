@@ -1,7 +1,7 @@
 import { Box, Typography, useTheme } from '@mui/material'
 import { DataGrid, } from '@mui/x-data-grid'
 import { tokens } from '../../theme'
-import { mockDataInvoices } from '../../data/mockData'
+import { mockDataContacts } from '../../data/mockData'
 import Header from '../../components/Header';
 
 const Invoices = () => {
@@ -80,6 +80,7 @@ const Invoices = () => {
                         color: '${colors.greenAccent[200] !important}'
                     }
                 }}
+            
             >
                 <DataGrid
                     checkboxSelection
