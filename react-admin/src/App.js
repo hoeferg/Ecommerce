@@ -21,7 +21,7 @@ function App() {
     <ColorModeContext.Provider value={colorMode}>
       <ThemeProvider theme={theme}>
         <CssBaseline />
-        <main className="content">
+          <main className="content">
           <div className="app">
             <Topbar />
             <Routes>
@@ -38,7 +38,7 @@ function App() {
               {/* <Route path='/calendar' element={<Calendar/>} /> */}
             </Routes>
           </div>
-        </main>
+          </main>
       </ThemeProvider>
     </ColorModeContext.Provider >
   )
