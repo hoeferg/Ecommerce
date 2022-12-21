@@ -7,12 +7,12 @@ import Dashboard from './scenes/dashboard'
 import Team from './scenes/team'
 import Contacts from './scenes/contacts'
 import Invoices from './scenes/invoices'
+import Calender from './scenes/calendar'
 // import Bar from './scenes/bar'
 // import Form from './scenes/form'
 // import Line from './scenes/line'
 // import Pie from './scenes/pie'
 // import Geography from './scenes/geography'
-// import Calender from './scenes/calender'
 
 
 function App() {
@@ -37,7 +37,7 @@ function App() {
               {/* <Route path='/line' element={<Line/>} /> */}
               {/* <Route path='/faq' element={<Faq/>} /> */}
               {/* <Route path='/geography' element={<Geography/>} /> */}
-              {/* <Route path='/calendar' element={<Calendar/>} /> */}
+              <Route path='/calendar' element={<Calendar/>} />
             </Routes>
           </main>
         </div>
