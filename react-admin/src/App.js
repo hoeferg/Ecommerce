@@ -13,7 +13,7 @@ import Invoices from './scenes/invoices'
 // import Pie from './scenes/pie'
 // import Geography from './scenes/geography'
 // import Calender from './scenes/calender'
->>>>>>> 5882b934 (team component is complete)
+
 
 
 function App() {
@@ -45,7 +45,6 @@ function App() {
       </ThemeProvider>
     </ColorModeContext.Provider >
   )
->>>>>>> 5882b934 (team component is complete)
 }
 
 export default App;
