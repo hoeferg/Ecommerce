@@ -34,7 +34,7 @@ const Invoices = () => {
             headerName: 'Cost',
             flex: 1,
             renderCell: (params) => (
-                <Typography color={colors.greenaccent[500]}>
+                <Typography color={colors.greenAccent[500]}>
                     ${params.row.cost}
                 </Typography>
             )
