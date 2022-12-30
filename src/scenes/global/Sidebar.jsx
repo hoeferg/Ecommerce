@@ -117,7 +117,7 @@ const Sidebar =() => {
                     />
 
                     <Typography
-                    Variant="h6"
+                    variant="h6"
                     color={colors.grey[300]}
                     sx={{ m: "15px 0 5px 20px"}}
                     >
@@ -145,7 +145,7 @@ const Sidebar =() => {
                         setSelected={setSelected}
                     />
 <Typography
-                    Variant="h6"
+                    variant="h6"
                     color={colors.grey[300]}
                     sx={{ m: "15px 0 5px 20px"}}
                     >
@@ -175,7 +175,7 @@ const Sidebar =() => {
                     />
 
 <Typography
-                    Variant="h6"
+                    variant="h6"
                     color={colors.grey[300]}
                     sx={{ m: "15px 0 5px 20px"}}
                     >
