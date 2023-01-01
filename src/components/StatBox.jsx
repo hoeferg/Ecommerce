@@ -1,7 +1,7 @@
 import { TextIncreaseSharp } from "@mui/icons-material";
 import { Box, Typography, useTheme } from "@mui/material";
 import { tokens } from "../theme";
-import ProgressCircle from "./ProgressCircle.JSX";
+import ProgressCircle from "./ProgressCircle.jsx";
 
 const StatBox = ({ title, subtitle, icon, progress, increase }) => {
     const theme = useTheme();
