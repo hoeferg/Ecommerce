@@ -4,7 +4,7 @@ import Header from "../../components/Header";
 import { mockTranscations } from "../../data/mockData";
 import DownloadOutlinedIcon from "@mui/icons-material/DownloadOutlined";
 import EmailIcon from "@mui/icons-material/Email";
-import PointofSaleIcon from "@mui/icons-material/PointofSale";
+import PointOfSaleIcon from "@mui/icons-material/PointOfSale";
 import PersonAddIcon from "@mui/icons-material/PersonAdd";
 import TrafficIcon from "@mui/icons-material/TrafficOutlined";
 import LineChart from "../../components/LineChart";
@@ -26,21 +26,23 @@ const Dashboard = () => {
                 alignItems="center"
             >
                 <Header title="DASHBOARD" subtitle="Welcome to your dashboard" />
+
+                <Box>
+                    <Button
+                        sx={{
+                            background: colors.blueAccent[700],
+                            color: colors.grey[100],
+                            fontSize: "14px",
+                            fontWeight: "bold",
+                            padding: "10px, 20px"
+                        }}
+                    >
+                        <DownloadOutlinedIcon sx={{ mr: "10px" }} />
+                        Download Reports
+                    </Button>
+                </Box>
             </Box>
-            <Box>
-                <Button
-                    sx={{
-                        background: colors.blueAccent[700],
-                        color: colors.grey[100],
-                        fontSize: "14px",
-                        fontWeight: "bold",
-                        padding: "10px, 20px"
-                    }}
-                >
-                    <DownloadOutlinedIcon sx={{ mr: "10px" }} />
-                    Download Reports
-                </Button>
-            </Box>
+
             {/* Grid & Charts */}
             <Box
                 display="grid"
@@ -88,7 +90,7 @@ const Dashboard = () => {
                         progress="0.5"
                         increase="+20%"
                         icon={
-                            <pointOfSaleIcon
+                            <PointOfSaleIcon
                                 sx={{
                                     color: colors.greenAccent[600],
                                     fontSize: "26px"
@@ -96,7 +98,15 @@ const Dashboard = () => {
                             />
                         }
                     />
+                </Box>
 
+                <Box
+                    gridColumn="spam 3"
+                    backgroundColor={colors.primary[400]}
+                    display="flex"
+                    alignItems="center"
+                    justifyContent="center"
+                >
 
                     <StatBox
                         title="32,446"
@@ -114,14 +124,22 @@ const Dashboard = () => {
                     />
                 </Box>
 
-                
-                <StatBox
+                <Box
+                    gridColumn="spam 3"
+                    backgroundColor={colors.primary[400]}
+                    display="flex"
+                    alignItems="center"
+                    justifyContent="center"
+                >
+
+
+                    <StatBox
                         title="1,243,542"
-                        subtitle= "Traffic Inbound"
-                        progress="0.5"
+                        subtitle="Traffic Inbound"
+                        progress="0.80"
                         increase="+43%"
                         icon={
-                            <TrafficIcon 
+                            <TrafficIcon
                                 sx={{
                                     color: colors.greenAccent[600],
                                     fontSize: "26px"
@@ -129,10 +147,25 @@ const Dashboard = () => {
                             />
                         }
                     />
+                </Box>
 
-            </Box>
-        </Box>
-    );
+                {/* Row 2 */}
+                <Box
+                    gridColumn="spam 8"
+                    gridRow="span 2"
+                    background={colors.primary[400]}
+                >
+                    <Box
+                        mt="25px"
+                        p="0, 30px"
+                        display="flex"
+                        justifyContent="space-between"
+                        alignItems="center"
+                        >
+                            
+                        </Box>
+                </Box>
+                );
 };
 
-export default Dashboard;
+                export default Dashboard;
