@@ -88,7 +88,7 @@ const Dashboard = () => {
                         progress="0.5"
                         increase="+20%"
                         icon={
-                            <EmailIcon
+                            <pointOfSaleIcon
                                 sx={{
                                     color: colors.greenAccent[600],
                                     fontSize: "26px"
@@ -104,7 +104,7 @@ const Dashboard = () => {
                         progress="0.30"
                         increase="+5%"
                         icon={
-                            <EmailIcon
+                            <PersonAddIcon
                                 sx={{
                                     color: colors.greenAccent[600],
                                     fontSize: "26px"
@@ -121,7 +121,7 @@ const Dashboard = () => {
                         progress="0.5"
                         increase="+43%"
                         icon={
-                            <EmailIcon 
+                            <TrafficIcon 
                                 sx={{
                                     color: colors.greenAccent[600],
                                     fontSize: "26px"
