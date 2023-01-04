@@ -21,10 +21,10 @@ const Calendar = () => {
     const colors = tokens(theme.palette.mode);
     const [currentEvents, setCurrentEvents] = useState([]);
 
-    const handleDataClick = (selected) => {
+    const handleDateClick = (selected) => {
         const title = prompt('Please enter a new title for your event');
         const calendarApi = selected.view.calendar;
-        calendarApi.unselct();
+        calendarApi.unselect();
 
         if (title) {
             calendarApi.addEvent({
@@ -32,7 +32,7 @@ const Calendar = () => {
                 title,
                 start: selected.startStr,
                 end: selected.endStr,
-                allday: selected.allDay,
+                allDay: selected.allDay,
             });
         }
     };
@@ -46,26 +46,27 @@ const Calendar = () => {
         }
     };
 
-    return <Box m='20px'>
-        <Header title="CALENDAR" subtitle='Full Calendar Interactive Page' />
+    return (
+    <Box m='20px'>
+        <Header title="Calendar" subtitle='Full Calendar Interactive Page' />
         <Box display='flex' justifyContent='space-between'>
             {/* CALENDAR SIDEBAR */}
-            <Box
-                flex='1 1 20%'
-                backgroundColor={colors.primary[400]}
-                p='15px'
-                borderRadius='4px'
+            <Box    
+            // flex='1 1 20%'
+                    backgroundColor={colors.primary[400]}
+                    p='15px'
+                    borderRadius='4px'
             >
                 <Typography variant='h5'>Events</Typography>
                 <List>
                     {currentEvents.map((event) => (
                         <ListItem
-                            key={event.id}
-                            sx={{
-                                backgroundColor: colors.greenAccent[500],
-                                margin: '10px 0',
-                                borderRadius: '2px'
-                            }}
+                        key={event.id}
+                        sx={{
+                            backgroundColor: colors.greenAccent[500],
+                            margin: '10px 0',
+                            borderRadius: '2px'
+                        }}
                         >
                             <ListItemText
                                 primary={event.title}
@@ -78,14 +79,18 @@ const Calendar = () => {
                                         })}
                                     </Typography>
                                 }
-                            >
-                            </ListItemText>
+                                />
                         </ListItem>
                     ))}
                 </List>
             </Box>
+            
             {/* CALENDAR */}
-            <Box Flex='1 1 100%' ml='15px'>
+            <Box 
+                    flex='1 1 20%'
+                    p='15px'
+                    borderRadius='4px'
+                    >
                 <FullCalendar
                 height="75vh"
                 plugins={[
@@ -103,17 +108,26 @@ const Calendar = () => {
                 editable={true}
                 selectable={true}
                 selectMirror={true}
-                select={handleDataClick}
+                dayMaxEvents={true}
+                select={handleDateClick}
                 eventClick={handleEventClick}
                 eventsSet={(events) => setCurrentEvents(events)}
                 initialEvents={[
-                    {id: '1234', title: 'All-day event', date:'2022-12-21'},
-                    {id: '4321', title: 'Timed event', date:'2022-12-28'},
+                    {
+                        id: '1234', 
+                    title: 'All-day event', 
+                    date:'2022-12-21'
+                },{
+                    id: '4321',
+                    title: 'Timed event',
+                    date:'2022-12-28'
+                },
                 ]}
                 />
+                </Box>
             </Box>
         </Box>
-    </Box>
+    );
 };
 
 
