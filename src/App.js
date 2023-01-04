@@ -11,7 +11,7 @@ import Contacts from './scenes/contacts'
 import Invoices from './scenes/invoices'
 import Calendar from './scenes/calendar'
 import Form from './scenes/form'
-import FAQ from "./scenes/faq";
+import Faq from "./scenes/faq";
 import Bar from './scenes/bar'
 import Line from './scenes/line'
 import Pie from './scenes/pie'
