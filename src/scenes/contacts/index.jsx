@@ -87,7 +87,7 @@ const Contacts = () => {
                         borderTop: 'none'
                     },
                     '& .MuiDataGrid-toolbarContainer .MuiButton-text': {
-                        color: '${colors.gre[100]} !impotant',
+                        color: `${colors.grey[100]} !important`,
                     },
                 }}
             >

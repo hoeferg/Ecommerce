@@ -11,7 +11,7 @@ import LineChart from "../../components/LineChart";
 import GeographyChart from "../../components/GeographyChart";
 import BarChart from "../../components/BarChart";
 import StatBox from "../../components/StatBox";
-import ProgressCircle from "../../components/ProgressCircle";
+import ProgressCircle from "../../components/ProgressCircle.jsx";
 
 const Dashboard = () => {
     const theme = useTheme();

@@ -77,7 +77,7 @@ const Invoices = () => {
                         borderTop: 'none'
                     },
                     '& .muiCheckbox-root': {
-                        color: '${colors.greenAccent[200] !important}'
+                        color: `${colors.greenAccent[200]} !important`
                     }
                 }}
             
