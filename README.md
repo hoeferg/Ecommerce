@@ -21,7 +21,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/hoeferg/Ecommerce-">
-    <img src="assets/Display" alt="Logo" width="80" height="80">
+     <img src="public/assets/Display.jpg" alt="Logo" >
   </a>
 
 <h3 align="center">ECOMMERCE</h3>
@@ -72,7 +72,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-<img src="assets/Capture" alt="Logo" width="80" height="80">
+<img src="https://media4.giphy.com/media/Z2tTJbSnzZw702NOQq/giphy.gif?cid=790b7611b1d837f2b1ed789945db6d55c61fd35d18b38392&rid=giphy.gif&ct=g" alt="Logo">
 
 
 This is an Admin Dashboard that was built using React, Material UI, Nivo Charts, Formik, Yup, FullCalendar, and Data Grid. This application consists of Light and Dark Mode, 4 different Charts, 3 different Data Table Pages, FAQ Page, Form Page, and Calendar Integration.
