@@ -21,7 +21,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/hoeferg/Ecommerce-">
-     <img src="public/assets/Display.jpg" alt="Logo" >
+     <img src="src/public/assets/Display.jpg" alt="Logo" >
   </a>
 
 <h3 align="center">ECOMMERCE</h3>
