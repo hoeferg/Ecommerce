@@ -23,6 +23,7 @@ function App() {
   const [isSidebar, setIsSidebar] = useState(true);
 
   return (
+    <>
     <ColorModeContext.Provider value={colorMode}>
       <ThemeProvider theme={theme}>
         <CssBaseline />
@@ -47,6 +48,7 @@ function App() {
         </div>
       </ThemeProvider>
     </ColorModeContext.Provider >
+    </>
   )
 }
 
