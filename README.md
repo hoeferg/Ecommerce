@@ -1,4 +1,4 @@
-# Ecommerce
+# React Dashboard
 <a name="readme-top"></a>
 
 <!-- PROJECT SHIELDS -->
@@ -9,35 +9,34 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
+[![React][React.js]][React-url]
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
 
 
 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/hoeferg/Ecommerce-">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  <a href="https://jamesxalis.github.io/React-Dashboard">
+    <img src="public/assets/Display.jpg" alt="Logo" >
   </a>
 
-<h3 align="center">ECOMMERCE</h3>
+<h3 align="center">React Administration Dashboard</h3>
 
   <p align="center">
     An administrative dashboard for employees, site traffic, and invoices to easily handly your online business. The application consists of light and dark mode, 4 different charts, 3 different data table pages, FAQ page, form page, and calendar integration. 
     <br />
-    <a href="https://github.com/hoeferg/Ecommerce-"><strong>Explore the docs »</strong></a>
+    <a href="https://jamesxalis.github.io/React-Dashboard"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/hoeferg/Ecommerce-">View Demo</a>
+    <a href="https://jamesxalis.github.io/React-Dashboard">View Demo</a>
     ·
-    <a href="https://github.com/hoeferg/Ecommerce-/issues">Report Bug</a>
+    <a href="https://jamesxalis.github.io/React-Dashboard/issues">Report Bug</a>
     ·
-    <a href="https://github.com/hoeferg/Ecommerce-/issues">Request Feature</a>
+    <a href="https://jamesxalis.github.io/React-Dashboard/issues">Request Feature</a>
   </p>
 </div>
 
@@ -73,10 +72,10 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
+<img src="https://media4.giphy.com/media/Z2tTJbSnzZw702NOQq/giphy.gif?cid=790b7611b1d837f2b1ed789945db6d55c61fd35d18b38392&rid=giphy.gif&ct=g" alt="Logo">
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `hoeferg`, `Ecommerce-`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_description`
+This is an Admin Dashboard that was built using React, Material UI, Nivo Charts, Formik, Yup, FullCalendar, and Data Grid. This application consists of Light and Dark Mode, 4 different Charts, 3 different Data Table Pages, FAQ Page, Form Page, and Calendar Integration.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -84,23 +83,13 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 ### Built With
 
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
-<!-- mui/material
-emotion/react /styled
-mui/x-data-grid icons-material 
-react-router-dom
-react-pro-sidbar
-formik
-yup
-fullcalendar/core /daygrid /timegrid /list
-nivo/core /pie /line /bar /geo -->
+* React
+* Material UI
+* Nivo Charts
+* Formik
+* Yup
+* FullCalendar
+* Data Grid
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -109,43 +98,23 @@ nivo/core /pie /line /bar /geo -->
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+To get started, clone the repo, install the NPM packages and start the application. 
 
-<!-- ### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ``` -->
 
 ### Installation
 
-<!-- 1. Get a free API Key at [https://example.com](https://example.com) -->
-2. Clone the repo
+1. Clone the repo
    ```sh
-   git clone https://github.com/hoeferg/Ecommerce-.git
+   git clone https://jamesxalis.github.io/React-Dashboard.git
    ```
-3. Install NPM packages
+2. Install NPM packages
    ```sh
    npm install
    ```
-<!-- 4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ``` -->
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
+3. Start the application
+   ```sh
+   npm start
+   ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -155,11 +124,11 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 ## Roadmap
 
 - [ ] Create a Profile Page
-- [ ] Create a Settings Page
-- [ ] Create Reports to download
-    - [ ] Have Reports make accounting easier
+- [ ] Mobile Responsive
+- [ ] Create a fullstack application
+    - [ ] Deploy the application
 
-See the [open issues](https://github.com/hoeferg/Ecommerce-/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://jamesxalis.github.io/React-Dashboard/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -194,41 +163,33 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <!-- CONTACT -->
 ## Contact
-
 Gayle Hoefer - [LinkedIn](https://linkedin.com/u/twitter_handle) - [Github](https://github.com/hoeferg)
+
 James Xalis - [LinkedIn](https://linkedin.com/u/jamesxalis) - [Github](github.com/jamesxalis)
 
-Project Link: [https://github.com/hoeferg/Ecommerce-](https://github.com/hoeferg/Ecommerce-)
+
+Project Link: [https://jamesxalis.github.io/React-Dashboard](https://jamesxalis.github.io/React-Dashboard)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-* []()
-* []()
-* []()
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/hoeferg/Ecommerce-.svg?style=for-the-badge
-[contributors-url]: https://github.com/hoeferg/Ecommerce-/graphs/contributors
+[contributors-url]: https://jamesxalis.github.io/React-Dashboard/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/hoeferg/Ecommerce-.svg?style=for-the-badge
-[forks-url]: https://github.com/hoeferg/Ecommerce-/network/members
+[forks-url]: https://jamesxalis.github.io/React-Dashboard/network/members
 [stars-shield]: https://img.shields.io/github/stars/hoeferg/Ecommerce-.svg?style=for-the-badge
-[stars-url]: https://github.com/hoeferg/Ecommerce-/stargazers
+[stars-url]: https://jamesxalis.github.io/React-Dashboard/stargazers
 [issues-shield]: https://img.shields.io/github/issues/hoeferg/Ecommerce-.svg?style=for-the-badge
-[issues-url]: https://github.com/hoeferg/Ecommerce-/issues
+[issues-url]: https://jamesxalis.github.io/React-Dashboard/issues
 [license-shield]: https://img.shields.io/github/license/hoeferg/Ecommerce-.svg?style=for-the-badge
-[license-url]: https://github.com/hoeferg/Ecommerce-/blob/master/LICENSE.txt
+[license-url]: https://jamesxalis.github.io/React-Dashboard/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://www.linkedin.com/in/gayle-hoefer-61a2a3124/
+[linkedin-url]: https://linkedin.com/in/linkedin_username
 [product-screenshot]: images/screenshot.png
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
