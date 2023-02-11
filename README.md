@@ -20,7 +20,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://jamesxalis.github.io/React-Dashboard">
+  <a href="https://github.com.io/hoeferg/Ecommerce">
     <img src="public/assets/Display.jpg" alt="Logo" >
   </a>
 
@@ -29,14 +29,14 @@
   <p align="center">
     An administrative dashboard for employees, site traffic, and invoices to easily handly your online business. The application consists of light and dark mode, 4 different charts, 3 different data table pages, FAQ page, form page, and calendar integration. 
     <br />
-    <a href="https://jamesxalis.github.io/React-Dashboard"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/hoeferg.io/Ecommerce"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://jamesxalis.github.io/React-Dashboard">View Demo</a>
+    <a href="https://hoeferg.github.io/Ecommerce/">View Demo</a>
     ·
-    <a href="https://jamesxalis.github.io/React-Dashboard/issues">Report Bug</a>
+    <a href="https://hoeferg.github.io/Ecommerce/issues">Report Bug</a>
     ·
-    <a href="https://jamesxalis.github.io/React-Dashboard/issues">Request Feature</a>
+    <a href="https://hoeferg.github.io/Ecommerce/issues">Request Feature</a>
   </p>
 </div>
 
@@ -105,7 +105,7 @@ To get started, clone the repo, install the NPM packages and start the applicati
 
 1. Clone the repo
    ```sh
-   git clone https://jamesxalis.github.io/React-Dashboard.git
+   git clone https://github.com/hoeferg/Ecommerce/
    ```
 2. Install NPM packages
    ```sh
@@ -126,9 +126,9 @@ To get started, clone the repo, install the NPM packages and start the applicati
 - [ ] Create a Profile Page
 - [ ] Mobile Responsive
 - [ ] Create a fullstack application
-    - [ ] Deploy the application
+- [ ] Deploy the application
 
-See the [open issues](https://jamesxalis.github.io/React-Dashboard/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://hoeferg.github.io/Ecommerce/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -163,12 +163,12 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <!-- CONTACT -->
 ## Contact
-Gayle Hoefer - [LinkedIn](https://linkedin.com/u/twitter_handle) - [Github](https://github.com/hoeferg)
+Gayle Hoefer - [LinkedIn](https://www.linkedin.com/in/gayle-hoefer-61a2a3124/) - [Github](https://github.com/hoeferg)
 
 James Xalis - [LinkedIn](https://linkedin.com/u/jamesxalis) - [Github](github.com/jamesxalis)
 
 
-Project Link: [https://jamesxalis.github.io/React-Dashboard](https://jamesxalis.github.io/React-Dashboard)
+Project Link: [https://github.com/hoeferg/Ecommerce/](https://hoeferg.github.io/Ecommerce/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
