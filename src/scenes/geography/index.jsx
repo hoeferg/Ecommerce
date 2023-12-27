@@ -1,4 +1,3 @@
-
 import Header from '../../components/Header'
 import GeographyChart from '../../components/GeographyChart'
 import { Box } from '@mui/system'

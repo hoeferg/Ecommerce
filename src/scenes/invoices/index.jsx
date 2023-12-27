@@ -7,7 +7,6 @@ import Header from '../../components/Header';
 const Invoices = () => {
     const theme = useTheme();
     const colors = tokens(theme.palette.mode);
-
     const columns = [
         {
             field: 'id',
@@ -80,7 +79,6 @@ const Invoices = () => {
                         color: `${colors.greenAccent[200]} !important`
                     }
                 }}
-            
             >
                 <DataGrid
                     checkboxSelection
